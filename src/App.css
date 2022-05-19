@@ -1,38 +1,127 @@
-.App {
+.App {position: relative;
+  top: 23px;
+  width: 1077px;
+  left: 25%;
+}
+
+.search {
+  padding-left: 26px;
+  top: 23px;
+  Width: 631px;
+  Height: 52px;
+  background-color: #5A5C66;
+  color: #B2B7BF;
+  font-weight: 400;
+  Font-size: 14px;
+  Line-height: 19px 138%;
+  text-align: Left;
+  fill: solid;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #B2B7BF;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table-columns {
+  height: 54px;
+  background-color: #474955;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-style: SemiBold;
+  Font-size: 14px;
+  Line-height: 19px 138%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table-id {
+  width: 114px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table-head {
+  width: 560px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table-text {
+  width: 503px;
 }
 
-.App-link {
-  color: #61dafb;
+.table-items {
+  color: #474955;
+  font-style: Medium;
+  font-weight: 500;
+  Font-size: 13px;
+  Line-height: 18px 138%;
+  text-align: Left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-items td {
+  border-collapse: collapse;
+  border: 1px solid #E3E6EC;
+}
+
+.text-id {
+  text-align: center;
+}
+
+.text-title,
+.text-body {
+  padding-left: 8px;
+}
+
+.pagination {
+  display: inline-block
+}
+
+.page-item {
+  display: inline-block;
+  font-weight: 700;
+  Font-size: 18px;
+  Line-height: 25px 138%;
+}
+
+.page-link {position: relative;
+  top: 10px;
+  left: 400px;
+  text-align: center;
+  padding-right: 10px;
+  text-decoration: none;
+  font-style: Italic;
+  color: #474955;
+}
+
+.page-link:focus {
+  color: #7EBC3C;
+}
+
+.btn-back {
+  position: relative;
+  left: 41px; top: -34px;
+  border-style: none;
+  background-color: #FFFFFF;
+  color: #474955;
+  font-style: Medium;
+  font-weight: 500;
+  Font-size: 24px;
+  Line-height: 33px 138%;
+  text-align: Left;
+  cursor: pointer;
+}
+
+.btn-next {
+  position: relative;
+  left: 80%; top: -34px;
+  border-style: none;
+  background-color: #FFFFFF;
+  color: #474955;
+  font-style: Medium;
+  font-weight: 500;
+  Font-size: 24px;
+  Line-height: 33px 138%;
+  text-align: Left;
+  cursor: pointer;
 }
